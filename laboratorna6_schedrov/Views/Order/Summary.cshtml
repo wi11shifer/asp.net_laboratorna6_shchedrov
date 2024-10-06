@@ -1,0 +1,17 @@
+﻿@model List<laboratorna6_schedrov.Models.Product>
+
+<h2>Order Summary</h2>
+@if (Model != null && Model.Any())
+{
+    foreach (var product in Model)
+    {
+        <p>Product: @product.ProductName, Quantity: @product.Quantity, Price: ₴@((product.Price * product.Quantity).ToString("0.00"))</p>
+        <img src="@product.PhotoLink" alt="@product.ProductName" width="100" />
+    }
+
+    <h3>Total Price: ₴@ViewBag.TotalPrice.ToString("0.00")</h3>
+}
+else
+{
+    <p>No products ordered.</p>
+}

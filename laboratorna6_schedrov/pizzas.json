@@ -1,0 +1,46 @@
+{
+  "Pizzas": [
+    {
+      "Id": 1,
+      "ProductName": "Margarita",
+      "Price": 180,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/f26/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/daee1tqq5qwr9tptcm0u52mfxskpiavd.webp"
+    },
+    {
+      "Id": 2,
+      "ProductName": "Peperoni",
+      "Price": 265,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/62e/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/4y05ehhgm88eupox5eh111jo1k2e94mq.webp"
+    },
+    {
+      "Id": 3,
+      "ProductName": "Hawaian",
+      "Price": 235,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/bdc/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/bdcf96026a19b14224f95ba504db540b.webp"
+    },
+    {
+      "Id": 4,
+      "ProductName": "4 Cheezes",
+      "Price": 275,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/f38/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/f38b33ebe98b8cecec084e14553c608f.webp"
+    },
+    {
+      "Id": 5,
+      "ProductName": "Burger",
+      "Price": 220,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/c12/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/c127a175c2439fd7eb26c79a9035aa57.webp"
+    },
+    {
+      "Id": 6,
+      "ProductName": "Cesar",
+      "Price": 255,
+      "Quantity": 0,
+      "PhotoLink": "https://pizza.od.ua/upload/resize_cache/webp/iblock/a58/600_600_2a1fde8d5e7dcaa11be442336c9d37f5e/a586e85945ff13feccb53a7e4c6ddd20.webp"
+    }
+  ]
+}

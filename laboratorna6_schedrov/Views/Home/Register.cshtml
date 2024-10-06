@@ -1,0 +1,18 @@
+﻿@model laboratorna6_schedrov.Models.User
+
+<h2>Registration</h2>
+@if (ViewBag.Message != null)
+{
+    <p style="color:red">@ViewBag.Message</p>
+}
+<form asp-action="Register" method="post">
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Age:</label>
+        <input asp-for="Age" type="number" />
+    </div>
+    <button type="submit">Submit</button>
+</form>

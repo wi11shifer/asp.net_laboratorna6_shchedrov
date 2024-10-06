@@ -1,0 +1,21 @@
+﻿@model List<laboratorna6_schedrov.Models.Product>
+
+<h2>Order Form</h2>
+
+<h3>Available Pizzas</h3>
+<form asp-action="ProductForm" method="post">
+    @foreach (var pizza in ViewBag.AvailablePizzas)
+    {
+        <div>
+            <label>
+                <input type="checkbox" name="selectedPizzas[@pizza.Id]" value="1" /> @pizza.ProductName - @pizza.Price₴
+                <img src="@pizza.PhotoLink" alt="@pizza.ProductName" width="100" />
+            </label>
+            <input type="number" name="quantities[@pizza.Id]" min="0" placeholder="Quantity" />
+        </div>
+    }
+    <button type="submit">Submit</button>
+</form>
+
+
+
